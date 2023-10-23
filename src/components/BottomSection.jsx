@@ -19,7 +19,7 @@ function BottomSection() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 mb-16 md:mb-0 px-36 md:px-0">
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 mb-16 md:mb-0 px-40 md:px-0">
           <div className="flex items-center gap-3">
             <div className="md:bg-gray-300 border border-gray-400 md:border-none w-8 md:w-10 h-8 md:h-10 rounded-md" />{" "}
             <div>
@@ -30,8 +30,8 @@ function BottomSection() {
           <div className="flex items-center gap-3">
             <div className="md:bg-gray-300 border border-gray-400 md:border-none w-8 md:w-10 h-8 md:h-10 rounded-md" />{" "}
             <div>
-              <h2 className="font-semibold flex gap-1 md:text-lg text-xs">
-                Multiple <p dangerouslySetInnerHTML={{ __html: "&lt" }} /> 100
+              <h2 className="font-semibold md:text-lg text-xs">
+                Multiple &lt; 100
                 Ranks
               </h2>
               <p className="text-[10px]">in kickstart last year</p>
