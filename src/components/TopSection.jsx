@@ -17,11 +17,11 @@ function TopSection() {
           <div className="flex md:flex-row flex-col items-center md:space-x-10 space-y-4 md:space-y-0 order-4 md:order-none">
             <button
               style={{ boxShadow: "0 0 100px rgba(255, 255, 255, 0.4)" }}
-              className="rounded-md py-2 md:px-10 px-36 bg-white text-[#04415B] font-bold flex items-center gap-2"
+              className="rounded-md py-2 md:px-10 px-32 bg-white text-[#04415B] font-bold flex items-center gap-2"
             >
               <p>Join Now</p> <BsArrowRightShort className="mt-1" size={25} />
             </button>
-            <button className="rounded-md border border-opacity-50 border-gray-400 py-2 md:px-9 px-36 bg-gradient-to-r from-[#1e3742] to-[#05425C]">
+            <button className="rounded-md border border-opacity-50 border-gray-400 py-2 md:px-9 px-32 bg-gradient-to-r from-[#1e3742] to-[#05425C]">
               View curriculum
             </button>
           </div>
