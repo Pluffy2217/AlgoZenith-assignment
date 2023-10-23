@@ -21,7 +21,7 @@ function TopSection() {
             >
               <p>Join Now</p> <BsArrowRightShort className="mt-1" size={25} />
             </button>
-            <button className="rounded-md border border-opacity-50 border-gray-400 py-2 md:px-9 px-32 bg-gradient-to-r from-[#1e3742] to-[#05425C]">
+            <button className="rounded-md border border-opacity-50 border-gray-400 py-3 md:px-9 px-32 bg-gradient-to-r from-[#1e3742] to-[#05425C]">
               View curriculum
             </button>
           </div>

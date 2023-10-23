@@ -31,8 +31,7 @@ function BottomSection() {
             <div className="md:bg-gray-300 border border-gray-400 md:border-none w-8 md:w-10 h-8 md:h-10 rounded-md" />{" "}
             <div>
               <h2 className="font-semibold md:text-lg text-xs">
-                Multiple &lt; 100
-                Ranks
+                Multiple &lt; 100 Ranks
               </h2>
               <p className="text-[10px]">in kickstart last year</p>
             </div>
@@ -56,7 +55,7 @@ function BottomSection() {
         </div>
       </div>
       <div
-        className="border border-gray-400 w-96 h-[45rem] rounded-md z-20"
+        className="border border-gray-400 w-[21rem] h-[41rem] rounded-md z-20"
         style={{ boxShadow: "0 0 50px rgba(4,65,91,0.4)" }}
       >
         <div className="w-full h-[25%] p-7 flex items-center -space-x-5">
@@ -72,46 +71,46 @@ function BottomSection() {
 
           <img src={azLogo} alt="az logo" className="opacity-[8%] w-40 h-36" />
         </div>
-        <div className="relative w-full h-[75%] bg-[#05425C] text-white flex flex-col space-y-6 pt-4">
+        <div className="relative w-full h-[75%] bg-[#05425C] text-white flex flex-col space-y-6 pt-4 pl-5">
           <img
             className="absolute inset-0 w-full h-full opacity-5"
             src={graph}
             alt="Your Image"
           />
           <div className="flex items-center space-x-4 text-sm w-[21rem] mx-auto">
-            <div className="w-12 h-12 border border-white rounded-md border-opacity-50 "></div>
+            <div className="w-10 h-10 border border-white rounded-md border-opacity-50 "></div>
             <p>100+ Hrs Live Content</p>
           </div>
           <div className="flex items-center space-x-4 text-sm w-[21rem] mx-auto">
-            <div className="w-12 h-12 border border-white rounded-md border-opacity-50 "></div>
+            <div className="w-10 h-10 border border-white rounded-md border-opacity-50 "></div>
             <p>50+ Hrs Contest</p>
           </div>
           <div className="flex items-center space-x-4 text-sm w-[21rem] mx-auto">
-            <div className="w-12 h-12 border border-white rounded-md border-opacity-50 "></div>
+            <div className="w-10 h-10 border border-white rounded-md border-opacity-50 "></div>
             <p>500+ Problems</p>
           </div>
           <div className="flex items-center space-x-4 text-sm w-[21rem] mx-auto">
-            <div className="w-12 h-12 border border-white rounded-md border-opacity-50 "></div>
-            <p className="w-72">
+            <div className="w-10 h-10 border border-white rounded-md border-opacity-50 "></div>
+            <p className="w-56">
               Includes an interview bootcamp and access to a mentor network
             </p>
           </div>
           <div className="flex items-center space-x-4 text-sm w-[21rem] mx-auto">
-            <div className="w-12 h-12 border border-white rounded-md border-opacity-50 "></div>
-            <p className="w-64">
+            <div className="w-10 h-10 border border-white rounded-md border-opacity-50 "></div>
+            <p className="w-56">
               Enjoy access to our content for one year (paid extentions
               available)
             </p>
           </div>
           <div className="flex items-center space-x-4 text-sm w-[21rem] mx-auto">
-            <div className="w-12 h-12 border border-white rounded-md border-opacity-50 "></div>
-            <p className="w-72">
+            <div className="w-10 h-10 border border-white rounded-md border-opacity-50 "></div>
+            <p className="w-56">
               Flexible payment options, including no-cost EMI, are available.{" "}
             </p>
           </div>
           <button
             style={{ boxShadow: "0 0 100px rgba(255, 255, 255, 0.7)" }}
-            className="rounded-sm px-28 py-2 w-[21rem] mx-auto  font-semibold bg-white text-[#04415B] flex items-center gap-2"
+            className="rounded-sm pl-24 py-2 w-[93%] font-semibold bg-white text-[#04415B] flex items-center gap-2"
           >
             <p>Join Now</p> <BsArrowRightShort className="mt-1" size={25} />
           </button>
